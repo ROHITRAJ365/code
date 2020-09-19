@@ -1,0 +1,71 @@
+<!Doctype HTML>
+<html>
+<head>
+  </title>
+</head>
+<body>
+<form action="conn.php" method="POST">
+  <table border="1" align="center" width="400" bgcolor="#cccccc">
+  <caption>Register form</caption>
+    <tr>
+     <td>First Name :</td>
+     <td><input type="text"name="username" required></td>
+    </tr>
+     <tr>
+     <td>Last Name :</td>
+     <td><input type="Lastname" name="lastname" required></td>
+     </tr>  
+      <tr>
+      <td>DOB  :</td>
+      <td><input type="dob" name="dob"required></td>
+      </tr>
+      <tr>
+      <td>Gender  :</td>
+     <td>
+      <input type="radio" name="gender" value="m" required>MALE
+      <input type="radio" name="gender" value="f" required>FEMALE
+      </td>
+      </tr>
+      <tr>
+      <td>EMAIL : </td>
+      <td><input type="email" name="email"required></td>
+      </tr>
+      <tr>
+      <td>Designation :</td>
+      <td><input type="designiation" name="designiation" required</td>
+      </tr>
+      <td>
+      <tr>
+      <td>Telephone no :</td>
+      <td>
+      <select name="TelephoneCode"required>
+      <option selected hidden value="">select code</options
+      <option value="977">977</options>
+      <option value="978">978</options>
+      <option value="979">979</options>
+      <option value="973">973</options>
+      <option value="972">972</options>       
+      <option value="974">974</options>
+     </select>
+     <input type="phone" name="phone" required>
+     </td>
+     </tr>
+     <tr>
+     <td>Hobbies :</td>
+     <td>
+     hobbie1<input type="checkbox" name="x[]" value="h"/>
+     hobbie2<input type="checkbox" name="x[]" value="h2"/>
+     hobbie3<input type="checkbox" name="x[]" value="h3"/>
+     hobbie4<input type="checkbox" name="x[]" value="h4"/>
+     </td>
+     </tr>
+     <tr>
+     <td cospan="2"allign="center">
+     <td><input type="submit" value="submit"/>
+     <input type="reset" value="Reset Data"/></td>
+     </tr>
+    </table>
+   </form>
+ </body>
+</html>
+     
